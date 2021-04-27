@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(204, 231, 240);
+    text-align: center;
+    margin: 5px;
+  }
+  
+  h1 {
+    color: navy;
+    text-decoration: wavy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  form {
+    color: navy;
+    text-decoration: wavy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
