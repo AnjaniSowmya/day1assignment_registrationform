@@ -6,8 +6,11 @@
     </head>
     <body>
         <meta name="viewport" content="witdh=device-width,initial-scale=1">
-        <h1>Student Registration Form</h1>
+        
         <form method="POST" action="/">
+            <div class="palette">
+                <h1>Student Registration Form</h1>
+                <div class="class1">
             <label for="fname">First Name </label>
             <input type="text" id="fname" placeholder="Enter your first name" required/><br><br>
             <label for="lname">Last Name </label>
@@ -20,12 +23,14 @@
             <input type="password" id="pwd" placeholder="Confirm your password" required/><br><br>
             <label for="dob">Date of birth </label>
             <input type="date" id="dob" placeholder="Enter your date of birth" required/><br><br>
+            <div class="gen">
             <input type="radio" id="male" name="gender" value="male" required>
             <label for="male">Male</label><br>
             <input type="radio" id="female" name="gender" value="female" required>
             <label for="female">Female</label><br>
             <input type="radio" id="other" name="gender" value="other" required>
             <label for="other">Other</label><br><br>
+            </div>
             <label for="clg">College </label>
             <input type="text" id="clg" placeholder="Enter your college name" required/><br><br>
             <label for="course">Course </label>
@@ -54,7 +59,11 @@
             </select><br><br>
             <label for="rno">Roll number </label>
             <input type="number" id="rno" placeholder="Enter your roll number" required/><br><br>
+        </div>
+        <div class="button">
             <input type="submit" value="Submit"><br>
+        </div>
+        </div>
         </form>
     </body>
 </html>
